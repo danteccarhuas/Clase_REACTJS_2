@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+//import '.css/index.css';
+//import App from './App';
 import * as serviceWorker from './serviceWorker';
+//Importando Primer Componente Creado
+import Aplicacion from './componentes/Aplicacion';
 
+//React SIN JSX
+
+// const titulo = React.createElement(
+//   'h1',
+//   {id: 'titulo', className: 'encabezado'},
+//   'Hola Mundo'
+// )
+
+{/* <React.StrictMode>
+<App />
+</React.StrictMode> */}
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<Aplicacion />,
   document.getElementById('root')
 );
 
