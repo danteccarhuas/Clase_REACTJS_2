@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 //Importando Primer Componente Creado
 import Aplicacion from './componentes/Aplicacion';
+//import PrimerComponente from './componentes/PrimerComponente';
 
 //React SIN JSX
 
@@ -14,9 +15,9 @@ import Aplicacion from './componentes/Aplicacion';
 //   'Hola Mundo'
 // )
 
-{/* <React.StrictMode>
+/*{ <React.StrictMode>
 <App />
-</React.StrictMode> */}
+</React.StrictMode> }*/
 ReactDOM.render(
 <Aplicacion />,
   document.getElementById('root')

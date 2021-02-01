@@ -23,6 +23,7 @@ class Aplicacion extends Component{
     //     }
     // }
 
+    //antes setear una propiedad del state es necesario inicializar la propiedad en el state
     //Segunda forma de usar el state
     state = {
         productos  : [
@@ -34,6 +35,9 @@ class Aplicacion extends Component{
         ]
     }
 
+    //Se ejecuta cuando el componente carga
+    //Cuando se haga consulta a un api usar el componentDidMount
+    //setState es para setear una propiedad en el state
     componentDidMount(){
         //Vairable con productos
 
@@ -55,8 +59,8 @@ class Aplicacion extends Component{
 //3. Invocar function render(es obligatorio ya que contiene el 
 //codigo que se va a mostrar en este componente)
     render(){
-        const productos = [
-        ]
+        /*const productos = [
+        ]*/
 
         return (
             <div>
